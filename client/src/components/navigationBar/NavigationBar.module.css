@@ -1,0 +1,49 @@
+/*Mobile*/
+.nav {
+    background-color: #eda2a1;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 0 10px;
+    width: 100%;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 1px solid white;
+    color: darkslategrey;
+}
+
+/*Tablet*/
+
+/*Desktop*/
+@media screen and (min-width: 1200px) {
+    .nav {
+        background-color: #eda2a1;
+        margin: 5% 0;
+        padding: 15px;
+    }
+
+    li {
+        float: left;
+    }
+
+    a {
+        display: block;
+        padding: 8px;
+        background-color: #eda2a1;
+    }
+}

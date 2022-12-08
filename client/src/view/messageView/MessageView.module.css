@@ -1,0 +1,46 @@
+/*mobile*/
+.sectionContainer {
+    text-align: center;
+}
+
+.buttonPost {
+    background-color: #EDA2A1;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: auto;
+}
+
+.sectionButton {
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.usernameInput {
+    margin-right: auto;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.labelTextArea {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: auto;
+    border: #EDA2A1;
+}
+
+.h1Text {
+    color: #4682B4;
+    font-family: "Quicksand Light", sans-serif;
+}
+
+.statusOfMessages {
+    font-size: smaller;
+    place-self: flex-end;
+}

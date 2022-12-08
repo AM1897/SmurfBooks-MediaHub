@@ -1,0 +1,39 @@
+.cardDiv {
+    background-color: rgb(151, 182, 208);
+    margin: .75em;
+    padding: .5em;
+    font-size: large;
+    display: grid;
+    filter: drop-shadow(2px 2px 12px rgba(51, 51, 51, 0.541));
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardDiv:hover {
+    filter: drop-shadow(2px 2px 4px rgba(51, 51, 51, 0.541));
+}
+.cardMsg {
+    background-color: rgba(44, 48, 50, 0.709);
+    padding: .25em; 
+    font-size: 1.5em;
+    color:rgb(151, 182, 208);
+}
+
+.cardTimestamps {
+    display: grid;
+    place-self: flex-start;
+    border: 2px darkgray double;
+    font-size: 1em;
+}
+
+.username {
+    background-color: #4682B4;
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+}
+
+.timestamps {
+    padding: 10px;
+}

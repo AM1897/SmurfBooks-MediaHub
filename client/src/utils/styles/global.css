@@ -1,0 +1,20 @@
+body {
+background-color: #A2D8FA;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+@font-face {
+  font-family: 'LuckiestGuy-Regular';
+  src: local('LuckiestGuy-Regular'),
+  url('./fonts/LuckiestGuy-Regular.ttf') format('truetype');
+}
+
+h1 {
+  font-family: LuckiestGuy-Regular, sans-serif;
+  font-size: 70px;
+}

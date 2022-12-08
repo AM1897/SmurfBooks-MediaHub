@@ -1,0 +1,47 @@
+/*mobile*/
+.section {
+    border-radius: 15px;
+    padding: 5px;
+    background: linear-gradient(to right, rgba(162, 216, 250, 1) 0%, rgba(237, 162, 161, 1) 100%);
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+    color: black;
+}
+
+.imageUser {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/*tablet*/
+@media screen and (min-device-width: 768px) {
+    .imageUser {
+        max-width: 50%;
+        border-radius: 15px;
+    }
+
+    .section {
+        border-radius: 15px;
+        padding: 15px;
+        background-color: whitesmoke;
+        text-align: center;
+        margin: 50px 50px 25px 50px;
+        color: black;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px ) {
+    .imageUser {
+        max-width: 25%;
+        border-radius: 15px;
+    }
+
+    .section {
+        border-radius: 15px;
+        padding: 10px;
+        background-color: whitesmoke;
+        text-align: center;
+        color: black;
+    }
+}

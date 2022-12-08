@@ -1,0 +1,36 @@
+.profilePic {
+    max-width: 100px;
+    display: none;
+}
+
+.profileWrapper {
+    color: #333;
+    right: 20px;
+    flex-direction: row;
+    padding: 25px 0 0 0;
+}
+
+button {
+    margin: 0 .5em;
+    padding: 1em;
+}
+
+button:hover {
+    background: #333;
+    color: whitesmoke;
+}
+
+.disabledLink {
+    text-decoration: line-through;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .profileWrapper {
+        color: #333;
+            position: absolute;
+        right: 20px;
+        flex-direction: row;
+        padding: 25px 0 0 0;
+    }
+}
