@@ -1,5 +1,7 @@
 # SmurfBooks - Social Media Platform
 
+![SmurfBooks](./client/src/utils/image/Smurf%20Book.png)
+
 SmurfBooks is a social media platform where users can register, sign in, and share images with others. The website is built using modern web technologies and is optimized for both desktop and mobile devices.
 
 ## Technologies and Tools
